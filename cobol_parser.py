@@ -6,6 +6,7 @@ def parse_cobol_file(file_path, output_json):
     sections_data = {}
     current_section = None
 
+
     # ביטויים רגולריים בסיסיים לזיהוי פעולות (דורש התאמה לסינטקס המדויק שלך)
     # נחפש מילים באותיות גדולות כמו שביקשת בעבר עבור שדות
     regex_section = re.compile(r'^([A-Z0-9\-]+)\s+SECTION\.', re.IGNORECASE)
