@@ -75,4 +75,4 @@ def parse_cobol_file(file_path, output_json):
     print(f"Parsed {len(sections_data)} sections. Data saved to {output_json}")
 
 if __name__ == "__main__":
-    parse_cobol_file('BIG_COBOL_PROG.cbl', 'parsed_cobol.json')
+    parse_cobol_file('big_cobol_file.cob', 'parsed_cobol.json')
